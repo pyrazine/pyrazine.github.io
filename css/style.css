@@ -1,0 +1,25 @@
+.nav{
+  background-color: LightSeaGreen;
+  color: black;
+  font-size: 20px;
+}
+.text-container{
+text-align: left;
+align-item: center;
+font-family: Lato, sans-serif;
+background-color: DarkSlateGray;
+color: red;
+}
+.text-music{
+text-align: center;
+background-color: brown;
+color: black;
+}
+.text-footer{
+background-color: black;
+text-align: center;
+padding: 30px;
+color: white;
+}
+body{
+background-color: LightSeaGreen;

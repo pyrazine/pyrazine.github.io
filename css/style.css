@@ -1,25 +1,45 @@
 .nav{
-  background-color: LightSeaGreen;
-  color: black;
-  font-size: 20px;
+background-color: LightSeaGreen;
+color: black;
+font-size: 20px;
+overflow: scroll;
 }
 .text-container{
 text-align: left;
 align-item: center;
-font-family: Lato, sans-serif;
 background-color: DarkSlateGray;
 color: red;
+font-family: 'Ubuntu Mono';font-size: 20px;
 }
 .text-music{
 text-align: center;
 background-color: brown;
 color: black;
+font-family: 'Ubuntu Mono';font-size: 20px;
 }
 .text-footer{
 background-color: black;
 text-align: center;
 padding: 30px;
 color: white;
+font-family: 'Ubuntu Mono';font-size: 20px;
 }
 body{
+font-family: 'Ubuntu Mono';font-size: 20px;
 background-color: LightSeaGreen;
+}
+.images{
+background-color: gray;
+font-family: 'Ubuntu Mono';font-size: 20px;
+text-align: center;
+}
+img {
+widht: 300px;
+height: 300px;
+padding: 20px 30px;
+}
+a:visited{
+color: green;
+}
+h1 {
+border: 1px solid #000000;

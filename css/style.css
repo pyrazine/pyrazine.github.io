@@ -1,45 +1,108 @@
-.nav{
-background-color: LightSeaGreen;
-color: black;
-font-size: 20px;
-overflow: scroll;
+html {
+scroll-behavior: smooth;
 }
-.text-container{
+
+h3 {
+color: black;
 text-align: left;
-align-item: center;
-background-color: DarkSlateGray;
-color: red;
-font-family: 'Ubuntu Mono';font-size: 20px;
+background-color: DarkGray;
 }
-.text-music{
-text-align: center;
-background-color: brown;
-color: black;
-font-family: 'Ubuntu Mono';font-size: 20px;
+
+@keyframes example
+{
+
+0%
+{
+background-color: red;
+left:0px;
+top:0px;
 }
-.text-footer{
-background-color: black;
-text-align: center;
-padding: 30px;
-color: white;
-font-family: 'Ubuntu Mono';font-size: 20px;
+25%
+{
+background-color: yellow;
+left:200px;
+top:0px;
 }
-body{
-font-family: 'Ubuntu Mono';font-size: 20px;
-background-color: Black;
+50%
+{
+background-color: blue;
+left:200px;
+top:200px;
 }
-.images{
+75%
+{
+background-color: green;
+left:0px;
+top:200px;
+}
+100%
+{
 background-color: gray;
-font-family: 'Ubuntu Mono';font-size: 20px;
+left:0px;
+top:0px;
+   }
+}
+
+h4{
+width: 135px;
+height: 135px;
+position: relative;
+text-align:right;
+animation-name: example;
+animation-duration: 3s;           animation-iteration-count:infinite;
+}
+
+.sidenav {
+height: 100%;
+width: 0℅;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a { 
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+.music {
+text-align: left;
+background-color: lightgreen;
+}
+
+.container {
+width: 50℅;
+background-color: DarkGray;
+}
+
+.footer {
+background-color: LightBlue;
 text-align: center;
+padding: 50px;
 }
-img {
-widht: 300px;
-height: 300px;
-padding: 20px 30px;
-}
-a:visited{
-color: green;
-}
-h1 {
-border: 1px solid #000000;

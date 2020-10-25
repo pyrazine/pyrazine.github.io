@@ -1,3 +1,7 @@
-function message(){
-  alert("This Jokes Bruh!");
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
 }

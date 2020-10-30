@@ -49,7 +49,8 @@ height: 135px;
 position: relative;
 text-align:right;
 animation-name: example;
-animation-duration: 3s;           animation-iteration-count:infinite;
+animation-duration: 3s;          
+animation-iteration-count:infinite;
 }
 
 .sidenav {
@@ -106,3 +107,24 @@ background-color: LightBlue;
 text-align: center;
 padding: 50px;
 }
+
+#myBtn {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 30px;
+z-index: 99;
+border: none;
+outline: none;
+background-color: red;
+color: white;
+cursor: pointer;
+padding: 15px;
+border-radius: 10px;
+font-size: 18px;
+}
+
+#myBtn:hover {
+background-color: #555;
+}
+
